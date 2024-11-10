@@ -1,2 +1,6 @@
 
 .venv/
+
+.vscode/
+
+examples/__pycache__/
