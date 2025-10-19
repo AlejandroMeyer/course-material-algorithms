@@ -1,11 +1,5 @@
 import pytest
-import sys
-from pathlib import Path
-
-# Add solutions directory to path
-sys.path.insert(0, str(Path(__file__).parent.parent / 'solutions' / 'dynamic_programming'))
-
-from dp_fibonacci import fibonacci_memo, fibonacci_tab
+from exercises.dynamic_programming.fibonacci import fibonacci_memo, fibonacci_tab
 
 @pytest.mark.parametrize("n, expected", [
     (1, 1),

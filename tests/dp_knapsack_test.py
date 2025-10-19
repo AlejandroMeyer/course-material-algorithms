@@ -1,11 +1,5 @@
 import pytest
-import sys
-from pathlib import Path
-
-# Add solutions directory to path
-sys.path.insert(0, str(Path(__file__).parent.parent / 'solutions' / 'dynamic_programming'))
-
-from dp_knapsack import knapsack, knapsack_np_ext
+from exercises.dynamic_programming.knapsack import knapsack, knapsack_np_ext
 
 @pytest.mark.parametrize("W, wt, val, n, expected", [
     (50, [10, 20, 30], [60, 100, 120], 3, 220),
