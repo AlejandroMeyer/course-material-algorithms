@@ -1,4 +1,10 @@
 import pytest
+import sys
+from pathlib import Path
+
+# Add solutions directory to path
+sys.path.insert(0, str(Path(__file__).parent.parent / 'solutions' / 'data_structures'))
+
 from vector import Vector3D
 
 def test_vector3d_initialization():
