@@ -1,5 +1,4 @@
 .venv/
-.vscode/
 .notes/
 .pytest_cache/
 **/__pycache__/
