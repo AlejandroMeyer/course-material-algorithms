@@ -18,7 +18,15 @@ Welcome to the **Algorithms and Data Structures** repository! This collection in
    cd your-repo-name
    ```
 
-2. **Install Dependencies**:
+2. **Set up Updates** (GitHub Classroom users):
+   ```bash
+   # Add the original repository to receive updates
+   git remote add upstream https://github.com/digital-business-lectures/course-material-algorithms.git
+   ```
+   
+   📖 See [UPDATES.md](UPDATES.md) for detailed instructions on how to get new exercises and materials.
+
+3. **Install Dependencies**:
    - Python 3.9+
    - Required libraries (for testing and notebooks):
      ```bash
@@ -128,7 +136,7 @@ algorithms-course-material/
   - Function signatures with TODO comments
   - Comprehensive docstrings with examples
   - Clear requirements for each exercise
-  - Organized by topic (dynamic_programming, data_structures)
+  - Organized by topic (e.g., dynamic_programming, data_structures)
 
 - **solutions/** - Complete implementations:
   - ⚠️ Only look after attempting exercises yourself!
