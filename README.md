@@ -12,7 +12,7 @@ Welcome to the **Algorithms and Data Structures** repository! This collection in
 
 ## 🚀 Getting Started
 
-1. **Clone the Repository**:
+1. **Clone the Repository** (or accept the GitHub Classroom assignment):
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
@@ -128,7 +128,7 @@ algorithms-course-material/
   - Function signatures with TODO comments
   - Comprehensive docstrings with examples
   - Clear requirements for each exercise
-  - Organized by topic (dynamic_programming, data_structures)
+  - Organized by topic (e.g., dynamic_programming, data_structures)
 
 - **solutions/** - Complete implementations:
   - ⚠️ Only look after attempting exercises yourself!
@@ -144,6 +144,28 @@ algorithms-course-material/
   - Interactive explanations and code samples
   - Visualizations for sorting, searching, and graph algorithms
   - Testing demonstrations using `unittest`, `pytest`, and `hypothesis`
+
+## 🔄 Getting Updates (GitHub Classroom)
+
+**For Students:** New exercises and materials will be added during the semester.
+
+To get updates:
+```bash
+# Pull the latest changes from the template repository
+git pull origin main
+```
+
+If you have local changes that conflict:
+```bash
+# Save your work first
+git add .
+git commit -m "My work before update"
+
+# Then pull and resolve any conflicts
+git pull origin main
+```
+
+> 💡 **Tip**: The instructor will notify you when new materials are available. Always commit your work before pulling updates!
 
 ## 📖 Further Reading and Resources
 
